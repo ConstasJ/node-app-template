@@ -8,8 +8,6 @@ export default defineConfig({
         file: "lib/index.js"
     },
     plugins: [
-        ts({
-            tsconfig: "tsconfig.json"
-        })
+        ts()
     ]
 });

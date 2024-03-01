@@ -105,3 +105,8 @@ dist
 
 .idea/
 lib/
+
+# npm, yarn and pnpm lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
